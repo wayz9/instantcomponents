@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @import url("fonts.css");
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-feature-settings: 'pnum', 'lnum', 'ss02', 'ss03', 'ss04', 'ss08', 'ss09', 'ss11', 'ss10';
+    }
+}
