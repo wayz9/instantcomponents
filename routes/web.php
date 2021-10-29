@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('something', fn() => back()->withInput()->withErrors(['input' => 'Error with this field!']))->name('post.create');
+Route::post('something', fn() => back()->withInput()->withErrors(['radio' => 'Error with this field!']))->name('post.create');

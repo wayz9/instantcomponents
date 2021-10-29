@@ -4,6 +4,11 @@
 
 @layer base {
     @import url("fonts.css");
+    @import url("forms.css");
+
+    a {
+        @apply text-primary-500 hover:text-primary-600 active:underline transition-colors;
+    }
 }
 
 @supports (font-variation-settings: normal) {
