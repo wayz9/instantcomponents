@@ -1,1 +1,1 @@
-<label {{ $attributes->merge(['class' => 'block text-gray-600 text-sm font-medium peer-disabled:text-gray-400 peer-disabled:line-through peer-disabled:cursor-not-allowed']) }}>{{ $slot }}</label>
+<label {{ $attributes->merge(['class' => 'block text-gray-600 dark:text-gray-300 text-sm font-medium peer-disabled:text-gray-400 peer-disabled:line-through peer-disabled:cursor-not-allowed']) }}>{{ $slot }}</label>

@@ -8,9 +8,9 @@
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
-<body class="antialiased bg-white flex h-screen items-center justify-center w-full font-sans">
+<body class="antialiased bg-white dark:bg-gray-900 flex h-screen items-center justify-center w-full font-sans">
     <div class="max-w-xs w-full">
         <x-form action="post.create">
             <div>
